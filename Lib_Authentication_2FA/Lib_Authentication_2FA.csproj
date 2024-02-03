@@ -4,7 +4,18 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Two-Factor_Authentication</Title>
+    <PackageIcon>escudo-de-seguranca.png</PackageIcon>
+    <Description>Esse pacote se destina a tratar de validações de authenticações de dois fatores, dos recursos da estrutura google authentication</Description>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Downloads\escudo-de-seguranca.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="GoogleAuthenticator" Version="3.2.0" />
