@@ -6,7 +6,7 @@ Este é um exemplo de implementação de autenticação de dois fatores utilizan
 
 Este projeto consiste em uma biblioteca para gerar códigos QR e validar códigos de autenticação de dois fatores utilizando o Google Authenticator. Ele fornece métodos para gerar um código QR contendo a chave secreta e para validar o código inserido pelo usuário.
 
-![Google Authenticator](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Google-authenticator-icon.svg/1200px-Google-authenticator-icon.svg.png)
+![Google Authenticator](https://logowik.com/content/uploads/images/google-authenticator-new-202365744.logowik.com.webp)
 
 ---
 
